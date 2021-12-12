@@ -1,0 +1,62 @@
+@font-face {
+  font-family: totallyGlyphic;
+  src: url(/TotallyGlyphic.ttf);
+}
+
+* {
+  font-family: totallyGlyphic;
+}
+
+.col-12 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-menu {
+  background-color: #fff;
+  padding: 0 100px;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.main {
+  background-image: url('/images/background.png');
+  height: 92.7vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 100px;
+}
+
+.main_emoballs img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.styledbox {
+  width: 100%;
+  padding: 20px;
+  border: 6px #ff00f0 solid;
+  background: #00fff0;
+  border-radius: 10px;
+  color: #ff00f0;
+  min-height: 250px;
+}
+.styledbox h1 {
+  font-size: 32px;
+}
+.styledbox h2 {
+  font-size: 24px;
+}
+.styledbox p {
+  font-size: 14px;
+}
+
+.styledbutton {
+  border-radius: 6px;
+  border: none;
+  background: #ff00f0;
+  height: 50px;
+  padding: 10px 20px;
+  color: #00fff0;
+}
